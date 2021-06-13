@@ -58,6 +58,7 @@ searchInput.onkeyup = function() {
         if(tdFirst || tdSecond) {
             const textFirst = tdFirst.innerText;
             const textSecond = tdSecond.innerText;
+            infoContent.style.display = "none";
             tableRows[i].style.display = (textFirst.toUpperCase().includes(inputValue) || textSecond.toUpperCase().includes(inputValue)) ? '' : 'none';
         }
 
