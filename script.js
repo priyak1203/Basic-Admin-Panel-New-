@@ -18,8 +18,8 @@ fetch(url).then(resp => resp.json())
                     <td class="column1">${userId}</td>
                     <td class="column2">${firstName}</td>
                     <td class="column3">${lastName}</td>
-                    <td class="column1">${email}</td>
-                    <td class="column1">${phone}</td>
+                    <td class="column4">${email}</td>
+                    <td class="column5">${phone}</td>
                     `
                     let tableRow = document.createElement('tr');
                     tableRow.classList.add("data-row")
