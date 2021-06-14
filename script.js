@@ -68,7 +68,6 @@ searchInput.onkeyup = function() {
 
 
 // ================ Preventing Default Behaviour of the Form Element ==================== //
-
 searchForm.onsubmit = function(e) {
     e.preventDefault();
 }
